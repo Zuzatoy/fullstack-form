@@ -1,0 +1,36 @@
+{
+  "user": {
+    "id": "jBWMVGjm50l6LGwepDoty",
+    "username": "frontendmaster"
+  },
+  "pet": [
+    {
+      "id": "676767ghun",
+      "createdAt": "12.10.1989",
+      "name": "Puss",
+      "type": "CAT",
+      "user": "Emma"
+    },
+    {
+      "id": "666tygjygujgy",
+      "createdAt": "12/09/9009",
+      "name": "Bobby",
+      "type": "DOG",
+      "user": "Emma"
+    },
+    {
+      "id": "666tygjygujgy",
+      "createdAt": "12/09/9009",
+      "name": "Ammy",
+      "type": "DOG",
+      "user": "Emma"
+    },
+    {
+      "id": "vmT34nA8S8yTJj53nDFKX",
+      "createdAt": 1580690175919,
+      "name": "Chubaka",
+      "type": "hummster",
+      "user": "Emma"
+    }
+  ]
+}
