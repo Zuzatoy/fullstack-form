@@ -3,11 +3,21 @@ import gql from 'graphql-tag'
 import { useQuery, useMutation } from '@apollo/react-hooks'
 import PetsList from '../components/PetsList'
 import NewPetModal from '../components/NewPetModal'
-import Loader from '../components/Loader'
+import Loader from '../components/Loader';
+
+const query = gql`
+query ListOfPets {
+    whatever{
+        field
+    }
+}
+`
 
 
 export default function Pets () {
-  const [modal, setModal] = useState(false)
+  const [modal, setModal] = useState(false);
+  const [{data, loading}] = useQuery(query);
+
 
 
   const onSubmit = input => {
